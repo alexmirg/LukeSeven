@@ -1,4 +1,102 @@
+/*----------------------------------------------------------------------
+
+	MASTER STYLESHEET
+
+	Project:        Luke Seven Studio
+	Version:        1.0
+	Author:         Alex Rohochyi
+	Primary use:    Corporate.
+	Email:			a94x28@gmail.com
+
+-----------------------------------------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-size: 10px;
+}
+
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: Hind, sans-serif;
+  font-weight: 400;
+  background: white;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.logo a {
+  display: block;
+  color: #0b0b0b;
+  line-height: 60px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-wrapper ul li {
+  list-style: none;
+  margin-right: 5px;
+}
+
+.nav-wrapper ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-wrapper ul li a {
+  display: block;
+  color: #0b0b0b;
+  padding: 0 20px;
+  line-height: 60px;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+input, label {
+  display: none;
 }
 /*# sourceMappingURL=layout.css.map */

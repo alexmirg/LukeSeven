@@ -52,7 +52,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 20%;
+  padding: 0 10%;
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -61,7 +61,6 @@ nav {
   color: #0b0b0b;
   line-height: 60px;
   font-size: 3rem;
-  font-weight: 700;
   text-decoration: none;
 }
 
@@ -94,6 +93,12 @@ nav {
   line-height: 60px;
   font-size: 1.8rem;
   text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.nav-wrapper ul li a:hover {
+  color: #ff5e00;
 }
 
 input, label {

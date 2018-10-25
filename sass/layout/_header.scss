@@ -1,0 +1,49 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10%;
+  background: rgba(0, 0, 0, .2);
+}
+
+.logo{
+ 
+  a{
+    display: block;
+    color: $color-link;
+    line-height: 60px;
+    font-size: 3rem;
+    text-decoration: none;
+  }
+}
+
+.nav-wrapper{
+  ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    li{
+      list-style: none;
+      margin-right: 5px;
+      &:last-child{
+        margin-right: 0;
+      }
+      a{
+        display: block;
+        color: $color-link;
+        padding: 0 20px;
+        line-height: 60px;
+        font-size: 1.8rem;
+        text-decoration: none;
+        transition: .2s;
+      &:hover{
+        color: $color-link-hover;
+      }
+      }
+    }
+  }
+}
+
+input, label{
+  display: none;
+}

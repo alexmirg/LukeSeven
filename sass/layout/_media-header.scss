@@ -39,15 +39,8 @@
   }
   /* Navbar toggler */
   .nav-btn {
-    position: fixed;
-    right: 10px;
-    top: 10px;
     display: block;
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
     z-index: 9999;
-    border-radius: 50%;
     i {
       display: block;
       width: 20px;
@@ -67,7 +60,6 @@
     }
   }
 }
-
 #toggler:checked+.nav-btn {
   transform: rotate(45deg);
   i {
@@ -92,8 +84,4 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
-
-.hidden {
-  display: none;
 }

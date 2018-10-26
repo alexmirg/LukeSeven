@@ -103,6 +103,20 @@ nav {
   color: #ff5e00;
 }
 
+.hidden {
+  display: none;
+}
+
+.nav-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 768px) {
   /* Navbar collapsed */
   .nav-wrapper {
@@ -161,15 +175,8 @@ nav {
   }
   /* Navbar toggler */
   .nav-btn {
-    position: fixed;
-    right: 10px;
-    top: 10px;
     display: block;
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
     z-index: 9999;
-    border-radius: 50%;
   }
   .nav-btn i {
     display: block;
@@ -226,9 +233,5 @@ nav {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
-}
-
-.hidden {
-  display: none;
 }
 /*# sourceMappingURL=layout.css.map */

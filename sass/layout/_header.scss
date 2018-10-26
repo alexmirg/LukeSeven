@@ -42,3 +42,13 @@ nav {
     }
   }
 }
+
+.hidden {
+   display: none;
+}
+.nav-btn{
+  @include position (fixed, $top: 10px, $right: 10px);
+  @include size (48px);
+  cursor: pointer;
+  border-radius: 50%;
+}

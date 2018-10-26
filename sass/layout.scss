@@ -12,24 +12,16 @@
 
 // Custom
 // =================================================================
-
 @import 'mixins'; // Mixins
 @import 'variables'; // Variables
-
 // Base
 // =================================================================
-
 @import 'base/base'; // Base
-
-
 // Layout
 // =================================================================
-
 @import 'layout/footer'; // Footer
 @import 'layout/header'; // Header
-
-
+@import 'layout/media-header'; // Media
 // Plugins
 // =================================================================
-
 @import 'plugins/masonry'; // Masonry

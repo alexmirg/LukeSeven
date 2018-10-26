@@ -1,4 +1,4 @@
-nav{
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -6,9 +6,8 @@ nav{
   background: rgba(0, 0, 0, .2);
 }
 
-.logo{
- 
-  a{
+.logo {
+  a {
     display: block;
     color: $color-link;
     line-height: 60px;
@@ -17,18 +16,18 @@ nav{
   }
 }
 
-.nav-wrapper{
-  ul{
+.nav-wrapper {
+  ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    li{
+    li {
       list-style: none;
       margin-right: 5px;
-      &:last-child{
+      &:last-child {
         margin-right: 0;
       }
-      a{
+      a {
         display: block;
         color: $color-link;
         padding: 0 20px;
@@ -36,14 +35,10 @@ nav{
         font-size: 1.8rem;
         text-decoration: none;
         transition: .2s;
-      &:hover{
-        color: $color-link-hover;
-      }
+        &:hover {
+          color: $color-link-hover;
+        }
       }
     }
   }
-}
-
-input, label{
-  display: none;
 }

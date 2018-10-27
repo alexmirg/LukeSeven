@@ -17,17 +17,18 @@
 }
 
 .nav-wrapper {
-  ul {
+  .nav-top {
     display: flex;
     flex-direction: row;
     align-items: center;
-    li {
+    &_item {
+      position: relative;
       list-style: none;
       margin-right: 5px;
       &:last-child {
         margin-right: 0;
       }
-      a {
+      &_link {
         display: block;
         color: $color-link;
         padding: 0 20px;
@@ -38,6 +39,35 @@
         &:hover {
           color: $color-link-hover;
         }
+      }
+    }
+  }
+}
+.dropdown-call{
+  &:hover{
+    .nav-dropdown{
+      display: block;
+    }
+  }
+}
+.nav-dropdown {
+  @include position(absolute, $left: 0);
+  min-width: 200px;
+  background: $color-base-darken;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 10px;
+  display: none;
+  transition: 5s;
+  &_item{
+    &_link{
+      display: block;
+      color: $color-link;
+      padding: 8px 20px 8px 10px;
+      font-size: 1.8rem;
+      &:hover{
+        color: $color-link-hover;
       }
     }
   }

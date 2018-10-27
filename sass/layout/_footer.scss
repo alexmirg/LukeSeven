@@ -1,8 +1,8 @@
 .footer{
-  @include position(absolute, $bottom: 0);
   @include bg-opacity($color-base, 1);
   width: 100%;
   padding: 15px;
+  flex: 0 0 auto;
   .copy{
     display: block;
     text-align: center;

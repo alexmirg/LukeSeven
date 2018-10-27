@@ -17,7 +17,7 @@ html {
 body {
   font-family: $font-family-base;
   font-weight: 400;
-  background: white;
+  @include bg-opacity($color-base-light, .2);
 }
 
 .wrapper {

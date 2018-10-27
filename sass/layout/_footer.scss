@@ -1,0 +1,19 @@
+.footer{
+  @include position(absolute, $bottom: 0);
+  @include bg-opacity($color-base, 1);
+  width: 100%;
+  padding: 15px;
+  .copy{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: $color-subtitle;
+    text-transform: uppercase;
+    a{
+      color: $color-subtitle;
+    }
+  }
+}

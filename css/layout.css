@@ -343,6 +343,7 @@ a {
 
 .gallery {
   margin: 0 auto;
+  padding-bottom: 50px;
   width: 90%;
 }
 

@@ -351,4 +351,24 @@ a {
   font-size: 50px;
   padding-top: 20px;
 }
+
+.gallery_category {
+  width: 100%;
+  font-size: 30px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery_category_item {
+  margin: 15px 20px;
+}
 /*# sourceMappingURL=layout.css.map */

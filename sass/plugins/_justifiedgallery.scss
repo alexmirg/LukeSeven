@@ -7,3 +7,14 @@ width: 90%;
   font-size: 50px;
   padding-top: 20px;
 }
+.gallery_category{
+  width: 100%;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &_item{
+    margin: 15px 20px;
+  }
+}
